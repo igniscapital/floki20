@@ -1,0 +1,90 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "tmhXVRAaw1u68QiyrffySk",
+      "projectApiToken": "YbHWDFlJE9x1o8TkSNCBwAKuMXZQxzmJckui5YsdGzsCRu4RIHqf8bdYxKUQuujMdga50mZg9cfSZFcWx5KA",
+      "projectName": "floki",
+      "version": "latest",
+      "cssFilePath": "plasmic/floki/plasmic.module.css",
+      "components": [
+        {
+          "id": "nfrJ9_EQGAkz",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "tmhXVRAaw1u68QiyrffySk",
+          "renderModuleFilePath": "plasmic/floki/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/floki/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        }
+      ],
+      "icons": [],
+      "images": [
+        {
+          "id": "eUssZ_wIhf3y",
+          "name": "floki.png",
+          "filePath": "../public/plasmic/floki/images/flokipng.png"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "D61Vv0IsMsEB",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "HEU-9rGYk_PD",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "TQ1sAfjS9rgY",
+        "name": "Screen",
+        "projectId": "tmhXVRAaw1u68QiyrffySk",
+        "contextFilePath": "plasmic/floki/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.330",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.330/dist/plasmic.schema.json"
+}
